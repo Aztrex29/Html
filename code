@@ -1,0 +1,971 @@
+
+Create a web page to display the course syllabus.
+<!DOCTYPE html>
+<html>
+<head>
+<title> web programming</title></head>
+<body bgcolor="grey">
+<h1 align="center">Web Programming Syllabus</h1>
+<h2 align="center"> unit1 </h2>
+<p><b><u>Fundamental of web</b></u>:Internet, WWW, Web browser, and Web server, standard XTML, hypertext links</p>
+<h2 align="center"> unit2 </h2>
+<p><b><u>HTML and XHTML</b></u>:forms,frames in HTML nadXHTML,syntactic differences between HTML and XHTML,CSS-level of style sheet,style specification formats,alignment of text,conflict resolutions</p>
+<h2 align="center"> unit3 </h2>
+<p><b><u>overview of javascript</b></u>:object oriented and javascript,general syntax and characteristics,screen output and keybordinput,object creation and modification,arrays,functions,constructor,pattern matching using expressions,errors and scripts,examples</p>
+<h2 align="center"> unit4 </h2>
+<p><b><u>java script and HTML documents</b></u>:javascript execution environment,document object model,elements access in javascript,events and event handling,handling events from the body elements,bottomelements,text box and password elements,the DOM 2 events model,the navigator</p>
+</body>
+</html>
+Design student details in first page and result in next page, link both pages using hyper links.
+       First Page:-
+<!DOCTYPE html>
+<html>
+<head>
+<title>links</title>
+</head>
+<body>
+<h1>this is the demo for linking page</h1>
+<h1>Student Information</h1>
+<h3>name:Nethravathi.g</h3>
+<h3>USN:R15CA097</h3>
+<h3>class:6thsem</h3>
+<h3>sec:B</h3>
+<h3>Branch:BCA</h3>
+<h3>ph.no:9535291111</h3>
+<h3>collage-<font color="blue">REVA UNIVERSITY</font></h3>
+<h1><a href="Second.html">DISPLAY RESULTS</a></h1>
+</body>
+</html>
+
+Second Page: - Second.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>link</title>
+<body>
+<h1 align="center">display result </h1>
+<h1><a href="demo.html">go back to Student Information</a></h1>
+<table border="1">
+<tr>
+<th>semister</th>
+<th>percentage</th>
+<th>result</th>
+</tr>
+<tr>
+<th>1</th>
+<td>8.0</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>2</th>
+<td>8.5</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>3</th>
+<td>7.9</td>
+<td>distinction</tr>
+</tr>
+<tr>
+<th>4</th>
+<td>6.9</td>
+<td>first class</tr>
+</tr>
+<tr>
+<th>5</th>
+<td>6.4</td>
+<td>second class</tr>
+</tr>
+<tr>
+<th>6</th>
+<td colspan="3">pursuing</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a web page for class time table.
+
+<html>
+<head>
+<title>time table</title></head>
+<body>
+<table  bgcolor="pink" border="10" align="center" cellspacing="20" cellpadding="30" >
+<tr>
+<thcolspan=8> 6th sem time table BCA 2017-18</th>
+</tr>
+<tr>
+<th>day/time</th>
+<th>8:30-9:30</th>
+<th>9:30-10:30</th>
+<th>10:30-10:50</th>
+<th>10:50-11:50</th>
+<th>11:50-12:50</th>
+<th>12:50-1:40</th>
+<th>1:40-2:30</th>
+</tr>
+<tr>
+<td>monday</td>
+<td>web</td>
+<td>cc</td>
+<td rowspan="3">tea break</td>
+<td> web</td>
+<td>cc</td>
+<td rowspan="3">lunch break</td>
+<td>---</td>
+<tr>
+<td>tuesday</td>
+<td>cc</td>
+<td>web</td>
+<td colspan="2">web lab</td>
+<td>cc</td>
+</tr>
+<tr>
+<td>wednesday</td>
+<td colspan="2">cc lab</td>
+<td>web</td>
+<td>web</td>
+<td>cc</td>
+</tr>
+</table>
+</body>
+</html>
+Develop a web page with 2 or more images, move images in different directions and write hyper link to any one image.
+
+<html>
+<head><title>image</title></head>
+<body>
+<marquee direction="up">
+<a href="WPsyllabus.html">
+<img src="images/image1.jpg" height="200" width="200" align="center" style="position:relative" alt="image not found" >
+</a>
+</marquee>
+<marquee direction="down">
+<a href="demo.html">
+<img src="images/image2.jpg" height="200" width="200" align="center" style="position:relative" alt="image not found">
+</a></marquee>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Create a web page to display the following content using list tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head><title>lists</title></head>
+<body>
+<ol type="1">
+<li>general aviation</li>
+<ol type="1">
+<li>single</li>
+<ol type="a">
+<li>tail wheel</li>
+<li>tricircle</li>
+</ol>
+<li>dual engine</li>
+<ol type="i">
+<li>wing mounted</li>
+<li>push pull mounted</li>
+</ol>
+</ol>
+<li>comercial aviation</li>
+<ol type="I">
+<li>dual engine</li>
+<ul type="circle">
+<li>push-pull</li>
+<li>tri engine</li>
+</ul>
+<li>tri engine</li>
+<ul type="square">
+<li>thrid engine</li>
+<li>second engine</li>
+</ul></ol>
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Design login page and validate it using JavaScript.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Loading </title>
+<script type="text/javascript">
+function validate()
+{
+	if(document.login.uname.value=="") //document.login.uname.value.length==0
+	{
+		alert("User name cannot be empty");
+		document.login.uname.focus();
+	}
+	else if(document.login.pwd.value.length==0)
+	{
+		alert("Password cannot be empty");
+		document.login.pwd.focus();
+	}
+	else if(document.login.uname.value=="reva" && document.login.pwd.value=="123")
+	{
+		alert("Login successful");
+		//document.login.action="demo.html";
+		//document.login.submit();
+	}
+	else
+	{
+		alert("Invalid login");
+		document.login.uname.value="";
+		document.login.pwd.value="";
+		document.login.uname.focus();
+	}
+}
+</script>
+</head>
+<body bgcolor="lightblue">
+<form name="login">
+<table align="center" bgcolor="pink" style="text-align:center">
+<tr><th colspan="2">LOGIN PAGE</th></tr>
+<tr><td>USER NAME</td><td><input type="text" name="uname" autofocus="autofocus" /> </td></tr>
+<tr><td>PASSWORD</td><td><input type="password" name="pwd" /> </td></tr>
+<tr><td><input type="button" value="LOGIN" onClick="validate()" /></td><td><input type="reset" value="CLEAR" /></td></tr>
+</table>
+</form>
+</body></html>
+7. Develop a HTML Form which accepts two numbers. Write JavaScript code to execute arithmetic operations and displays the result.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CALCULATOR</title>
+<script type="text/javascript">
+	
+	function add()
+	{
+		var a,b,c;
+		a=parseInt(document.frm.num1.value);
+		b=parseInt(document.frm.num2.value);
+		c=a+b;
+		//document.write("<h1 style='color:green'>sum="+c);
+		//alert("sum= "+c);
+		document.frm.result.value=c;
+		
+	}
+	function sub()
+	{
+		var a,b,c;
+		a=parseInt(document.frm.num1.value);
+		b=parseInt(document.frm.num2.value);
+		c=a-b;
+		//alert(c);
+		document.frm.result.value=c;
+		
+	}
+	function mul()
+	{
+		var a,b,c;
+		a=parseInt(document.frm.num1.value);
+		b=parseInt(document.frm.num2.value);
+		c=a*b;
+		//alert(c);
+		document.frm.result.value=c;
+		
+	}
+	function div()
+	{
+		var a,b,c;
+		a=parseInt(document.frm.num1.value);
+		b=parseInt(document.frm.num2.value);
+		if(b!=0)
+		{
+			c=a/b;
+		}
+		else
+		{
+			c="divide by zero error";
+		}
+		//alert(c);
+		document.frm.result.value=c;
+		
+	}
+</script>
+</head>
+<body bgcolor="cyan">
+<center>
+<pre>
+
+
+</pre>
+<form name="frm" action="#">
+<font face="Arial" size="5">
+<fieldset style="width:500px;text-align:left;">
+	<legend>Arithmetic Operations</legend>
+	Enter First Number : <input type="number" name="num1" required="required" autofocus="autofocus" /> <br><br>
+	Enter Second Number : <input type="number" name="num2" required="required" /> <br><br>
+	Result  :  <input type="text" name="result" readonly="readonly" />  <br><br>
+	<input type="button" value="+" onClick="add()"/>
+	<input type="button" value="-" onClick="sub()"/>
+	<input type="button" value="x" onClick="mul()"/>
+	<input type="button" value="/" onClick="div()"/>
+</form>	
+	
+</fieldset>
+</font>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+8. Create a form having number of elements (Textboxes, Radio buttons, Checkboxes, and so on). Write JavaScript code to count the number of elements in a form.
+
+
+<!DOCTYPE html>
+<html>
+<head><title>student form</title>
+<script type="text/javascript">
+	function count()
+	{
+		alert("The no of controls used in this form = "+document.student.length);
+	}
+</script>
+</head>
+<body>
+<form name="student">
+	<table align="center">
+		<tr><th colspan="2">STUDENT DETAILS </th></tr>
+		<tr>
+			<td>SRN NO</td>
+			<td><input type="text" name="srn" maxlength="8" autofocus="autofocus" /></td>
+		</tr>
+		<tr>
+			<td>STUDENT NAME</td>
+			<td><input type="text" name="sname" maxlength="50"/></td>
+		</tr>
+		<tr>
+			<td>SELECT COURSE</td>
+			<td>
+				<select name="course">
+					<option value="">SELECT</option>
+					<option value="BCA">BCA</option>
+					<option value="BCOM">BCOM</option>
+					<option value="BBA">BBA</option>
+					<option value="MCA">MCA</option>
+					
+				</select>
+			
+			</td>
+		</tr>
+		<tr>
+			<td>Citizen of India..?</td>
+			<td>
+				<input type="radio" name="ctype" value="Yes" />YES
+				<input type="radio" name="ctype" value="No" />No
+			</td>
+		</tr>
+		<tr>
+			<td>Programming Languages Known</td>
+			<td>
+				<input type="checkbox" name="lang1" value="C" />C
+				<input type="checkbox" name="lang2" value="VB" />VB
+				<input type="checkbox" name="lang3" value="JAVA" />JAVA
+				<input type="checkbox" name="lang4" value="WP" />WP
+			</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea name="address" rows="5" cols="25"></textarea></td>
+		</tr>
+		<tr>
+			<td>E-Mail Id</td>
+			<td><input type="email" name="email"/></td>
+		</tr>
+		<tr>
+			<td>DOB</td>
+			<td><input type="date" name="dob"/></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="COUNT" onclick="count()"/></td>
+			<td><input type="reset" value="CLEAR"/></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9. Create a form for Employee information. Write JavaScript code to find DA, HRA, PF, TAX, Gross pay, Deduction and Net pay.
+
+<html>
+<head>
+<title>Employee</title>
+<script>
+	function calculate()
+	{
+		var b,da,hra,cca,pf,pt,gp,np;
+		b=parseInt(document.emp.basic.value);
+		
+if(b>=5000)
+		{
+		da=0.7*b;           // 70% of basic --> da=(70/100)*b;
+		hra=0.3*b;           // 30% of basic
+		cca=0.1*b;
+		pf=0.02*b;
+		pt=0.01*b;
+		gp=b+da+hra+cca;
+		np=gp-(pf+pt);
+		document.emp.da.value=da;
+		document.emp.hra.value=hra;
+		document.emp.cca.value=cca;
+		document.emp.pf.value=pf;
+		document.emp.pt.value=pt;
+		document.emp.gp.value=gp;
+		document.emp.np.value=np;
+		}
+		else
+		{
+		alert("Basic salary should be 5000 or more");
+		document.emp.basic.value="";
+		document.emp.basic.focus();
+		}
+		
+	}
+	
+</script>
+<style>
+body{
+	background-color:white;
+	color:purple;
+	}
+</style>
+</head>
+<body>
+<form name="emp">
+	<table align="center" cellpadding="10">
+		<tr><th colspan="2">EMPLOYEE BASIC DETAILS</th></tr>
+		<tr>
+			<td><label>EMPLOYEE CODE</label></td>
+			<td><input type="text" name="eid" /></td>
+		</tr>
+		<tr>
+			<td><label>EMPLOYEE NAME</label></td>
+			<td><input type="text" name="ename" /></td>
+		</tr>
+		<tr>
+			<td><label>DEPARTMENT</label></td>
+			<td>
+				<select name="dept" style="width:170px;height:20px;">
+					<option>SELECT</option>
+					<option>HR</option>
+					<option>IT</option>
+					<option>ACCOUNTS</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label>BASIC SALARY</label></td>
+			<td><input type="text" name="basic" id="bp" /></td>
+		</tr>
+		<tr><th colspan="2">ALLOWANCES</th></tr>
+		<tr>
+			<td><label>DA</label></td>
+			<td><input type="text" name="da" readonly="readonly" /></td>
+		</tr>
+		<tr>
+			<td><label>HRA</label></td>
+			<td><input type="text" name="hra" readonly="readonly" /></td>
+		</tr>
+		<tr>
+			<td><label>CCA</label></td>
+			<td><input type="text" name="cca" readonly="readonly" /></td>
+		</tr>
+		<tr><th colspan="2">DEDUCTIONS</th></tr>
+		<tr>
+			<td><label>PF</label></td>
+			<td><input type="text" name="pf" readonly="readonly" /></td>
+		</tr>
+		<tr>
+			<td><label>PTAX</label></td>
+			<td><input type="text" name="pt" readonly="readonly" /></td>
+		</tr>
+		<tr><th colspan="2">SALARY</th></tr>
+		<tr>
+			<td><label>GROSS PAY</label></td>
+			<td><input type="text" name="gp" readonly="readonly" /></td>
+		</tr>
+		<tr>
+			<td><label>NET PAY</label></td>
+			<td><input type="text" name="np" readonly="readonly" /></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10. Create a form for Student information. Write JavaScript code to find Total, Average, Result and Grade.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Loading </title>
+<script type="text/javascript">
+function valid(ele)
+{
+	if(ele.value<0 || ele.value>100)
+		{
+			alert("enter marks between 0 to 100");
+			ele.value="";
+			ele.focus();
+		}
+		
+}
+
+function calculate()
+{
+	var wp,cc,total,avg,grade;
+	wp=parseInt(document.std.wp.value);
+	cc=parseInt(document.std.cc.value);
+	total=wp+cc;
+	avg=total/2;
+	document.std.tot.value=total;
+	document.std.avg.value=avg;
+	if(wp<35 || cc<35){
+		grade="Fail";
+	}
+	else if(avg>=80){
+		grade="A+";
+	}
+	else if(avg>=60){
+		grade="A";
+	}
+	else if(avg>=50){
+		grade="B";
+	}
+	else if(avg>=40){
+		grade="C";
+	}
+	else{
+		grade="Fail";
+	}
+	document.std.grade.value=grade;
+}
+</script>
+</head>
+<body style="background-color:yellow;color:blue;">
+<form name="std">
+<table align="center" bgcolor="lightgray">
+		<tr><th colspan="2">STUDENT RESULT</th></tr>
+		<tr>
+			<td><label>SRN</label></td>
+			<td><input type="text" name="srn" /></td>
+		</tr>
+		<tr>
+			<td><label>STUDENT NAME</label></td>
+			<td><input type="text" name="sname" /></td>
+		</tr>
+		<tr>
+			<td><label>DEPARTMENT</label></td>
+			<td>
+				<select name="dept" style="width:170px;height:20px;">
+					<option>SELECT</option>
+					<option>BCA</option>
+					<option>BBA</option>
+					<option>BCOM</option>
+				</select>
+			</td>
+		</tr>
+<tr><td>WP</td><td><input type="text" name="wp" onchange="valid(this)" /> </td></tr>
+<tr><td>CC</td><td><input type="text" name="cc" onchange="valid(this)" /> </td></tr>
+<tr><td>TOTAL</td><td><input type="text" name="tot" readonly="readonly" /> </td></tr>
+<tr><td>AVERAGE</td><td><input type="text" name="avg" readonly="readonly" /> </td></tr>
+<tr><td>GRADE</td><td><input type="text" name="grade" readonly="readonly" /> </td></tr>
+		
+<tr>
+<td align="center"><input type="button" value="RESULT" onclick="calculate()" /></td>
+<td align="center"><input type="reset" value="CLEAR" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+11. Develop web page with one text box and Write a JavaScript code to convert the text entered in textbox to upper case.
+<html>
+<head>
+<script type = "text/javascript">
+    function upper()
+    {
+        var upper = document.form1.string.value.toUpperCase();
+        document.form1.string.value = upper;
+    }
+</script>
+</head>
+<body>
+    <form name = "form1">
+        <table>
+            <tr>
+                <td>Enter String</td>
+                <td><input type = "text" name = "string" /></td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "upper" onclick = "upper()"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12. Create a web page using two image files, which switch between one another as the mouse pointer moves over the images. Use the on MouseOver and on MouseOut.
+
+<html>
+<head>
+<script type = "text/javascript">
+    function mouseover()
+    {
+        document.getElementById("img").src = "image.jpg";
+    }
+    function mouseout()
+    {
+        document.getElementById("img").src = image1.jpg;
+    }
+</script>
+</head>
+<body>
+<img src = "image1.jpg" id = "img" onmouseover="mouseover()" onmouseout="mouseout()"/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13. Develop a HTML Form, which accepts any Mathematical expression. Write JavaScript code to Evaluates the expression and Displays the result.
+<html>
+<head>
+<title>Mathematical Expression</title>
+<script type = "text/javascript">
+    function math_exp()
+    {
+        var x = document.form1.exptext.value;
+        var result = eval(x);
+        document.form1.resulttext.value = result;
+    }
+</script>
+</head>
+<body >
+    <form name = "form1">
+        <table>
+            <tr>
+                <td>Expression</td>
+                <td><input type = "text" name = "exptext" /></td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td><input type = "text" name = "resulttext" /></td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "calculate" onclick = "math_exp()" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+14. Create a HTML form with 3 Textboxes. Write JavaScript code to validate input for numbers, alphabets, alphanumeric and verify that all 3 textboxes has been filled.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Validation </title>
+<script>
+
+//Only alphabets with spaces allowed (for name)
+function alp(ele){
+	var val = ele.value;
+	var len = val.length;
+	if(val.search(/[^a-zA-Z ]/) != -1){			
+		alert("ENTER ONLY ALPHABETS");
+		ele.value = ele.value.substring(0,len-1);
+		ele.focus();
+	}
+}
+
+
+//Only alphabets and numbers without spaces( for srn)
+function alpnum(ele){
+	var val = ele.value;
+	var len = val.length;
+	if(val.search(/[^a-zA-Z0-9]/) != -1){			
+		alert("ENTER ONLY ALPHABETS OR NUMBERS");
+		ele.value = ele.value.substring(0,len-1);
+		ele.focus();
+	}
+}
+
+//Validation Function For Number Field 
+
+function num(ele){
+	var val = ele.value;
+	var len = val.length;
+	if(val.search(/[^0-9]/) != -1){			// \D is For Not A Digit search i.e [^0-9]
+		alert("ENTER ONLY NUMBERS");
+		ele.value = ele.value.substring(0,len-1);
+		ele.focus();
+		return false;
+ }
+	 return true;
+
+}
+
+function valid()
+{
+	if(document.std.srn.value=="" || document.std.sname.value=="" || document.std.mob.value==""){
+		alert("Please fill all the fields");
+	}
+	else{
+		alert("Form submitted successfully");
+	}
+	
+}
+</script>
+</head>
+<body style="background-color:yellow;color:blue;">
+<form name="std">
+<table align="center" bgcolor="lightgray">
+		<tr><th colspan="2">STUDENT RESULT</th></tr>
+		<tr>
+			<td><label>SRN</label></td>
+			<td><input type="text" name="srn" onkeyup="alpnum(this)" onkeydown="alpnum(this)"  maxlength="8" /></td>
+		</tr>
+		<tr>
+			<td><label>STUDENT NAME</label></td>
+			<td><input type="text" name="sname" onkeyup="alp(this)" onkeydown="alp(this)" /></td>
+		</tr>
+		<tr><td>CONTACT NUMBER</td>
+			<td><input type="text" name="mob" onkeyup="num(this)" onkeydown="num(this)" maxlength="10"/> </td>
+		</tr>
+		<tr>
+			<td align="center"><input type="button" value="SUBMIT" onclick="valid()" /></td>
+			<td align="center"><input type="reset" value="CLEAR" /></td>
+		</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+15. Write a JavaScript code to find the sum of N natural Numbers. (Use user-defined function)
+<html>
+<head>
+<script type = "text/javascript">
+    var num = window.prompt("Enter the number:","");
+    var n = parseInt(num);
+    result = sumnaturalno(n);
+    window.alert("The sum of " + n + "natural number is" + result);
+    function sumnaturalno(n)
+    {
+        var i;
+        var sum = 0;
+        for(i = 1;i <= n; i++){
+            sum = sum + i;}
+        return (sum);
+    }
+</script>
+</head>
+</html>
+
+16. Write a JavaScript code to find factorial of N. (Use recursive function)
+<html>
+    <body>
+        <script type = "text/javascript">
+            var n = parseInt(window.prompt("Enter the Number:"));
+            var result = fact(n);
+            window.alert("Factorial of the given number " + result);
+            function fact(n)
+            {
+                if(n == 0)
+                    return 1;
+                else 
+                    return (n*fact(n-1));
+            }
+        </script>
+    </body>
+</html>
